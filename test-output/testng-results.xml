@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-18T20:51:22 IST" name="Suite" finished-at="2022-02-18T20:53:54 IST" duration-ms="152099">
+    <groups>
+    </groups>
+    <test started-at="2022-02-18T20:51:22 IST" name="ZoomTest" finished-at="2022-02-18T20:53:54 IST" duration-ms="152099">
+      <class name="com.keywords.tests.ZoomDemo">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.keywords.tests.ZoomDemo@1500b2f3]" started-at="2022-02-18T20:51:22 IST" name="setUp" finished-at="2022-02-18T20:52:11 IST" duration-ms="49332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.zoom.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignUpPageTest()[pri:1, instance:com.keywords.tests.ZoomDemo@1500b2f3]" started-at="2022-02-18T20:52:11 IST" name="verifySignUpPageTest" finished-at="2022-02-18T20:53:51 IST" duration-ms="100129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.keywords.tests.ZoomDemo@1500b2f3]" started-at="2022-02-18T20:53:51 IST" name="tearDown" finished-at="2022-02-18T20:53:54 IST" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.keywords.tests.ZoomDemo -->
+    </test> <!-- ZoomTest -->
+  </suite> <!-- Suite -->
+</testng-results>
